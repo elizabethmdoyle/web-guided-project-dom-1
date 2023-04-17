@@ -34,6 +34,9 @@ const link2FirstCard = link1FirstCard.nextElementSibling;
 // C- Turn the collection of links into a real array
 // D- Use .filter to find the anchor tag with the textContent of "Home"
 
+const a = document.querySelectorAll('#menu-item');
+console.log('a');
+
 
 // 👉 3- Changing an element's text content
 //  A- Change the cat-related content into dog-related content
