@@ -3,9 +3,13 @@
 //  Newer: querySelector, querySelectorAll
 //  Select the following single elements from the div.card
 
+const mainNav = document.getElementById('mainNav');
+const divElem = document.getElementsByTagName('div');
+const cardElem = document.getElementsByClassName('card');
+
 // A- finding across the entire DOM
-const header = null
-const logoTitle = null
+const header = document.getElementsByTagName('header');
+const logoTitle = document.getElementById('logoTitle');
 const firstCard = null
 // B- finding within one particular element
 const imageFirstCard = null
