@@ -141,7 +141,7 @@ const email = document.querySelector('.email');
 contactHeading.textContent = data['contact']['contact-heading']
 address.textContent = data['contact']['address']
 phone.textContent = data['contact']['phone']
-email.textContent = data['contact']['emaily']
+email.textContent = data['contact']['email']
 
 // 👉 8- Removing an existing element and putting it back [STRETCH if time allows]
 
